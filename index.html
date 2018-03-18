@@ -5,29 +5,132 @@
   <link href="style.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width">
 <style type="text/css">
-body {background-image: url("H.jpg");}
-.vl {
-  width: 30%;
-  height: 100%;
-  font-color: white;
-  font-family: Orator STD;
-  position: fixed;
-  background-color: #ffd1dc;
-  }
- #
+<html>
+<head>
+<style type="text/css">
+body {background: url(bg.png);}
+#a{
+    overflow:hidden;
+    position: fixed;
+    display:inline-block;
+}
+.prof {width: 270px;
+    height: 270px;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 1;
+	margin-left: -75px;
+}
+#a:before, #a:after{
+    content:'';
+    width: 300px;
+    border-radius: 50%;
+}
+#a:before {
+    position: absolute;
+    height: 270px;  
+    float: left;	
+    border: none;
+    background: none;
+}
+#a:after {
+    position: absolute;
+    left:760px; top:-15px;
+    height:300px;
+    box-shadow: 0px 0px 0px 0px #000, 0px 100px 0px 1700px #f7d7d2;
+    background: none;
+    z-index:-1;
+}
+#b {
+    width: 1700px;
+    height: 270px;
+    background: none;
+	margin-right: 204px;
+    border: none;
+    border-left:none;
+    float:left;
+}
+
+.O {position: absolute;
+    font-family: century gothic;
+    font-size: 60px;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+.M {position: fixed;
+    font-family: century gothic;
+    font-size: 21px;
+    margin-top: 5%;
+	margin-left: 57%;
+}
+#H {width: 28%;
+    height: 69%;
+	background-color: #f3f7fd;
+	position: absolute;
+	margin-top: 14.5%;
+	font-family: century gothic;
+	font-size: 21px;
+	opacity: 0.7;
+}
+h1 {font-family: century gothic;
+    font-size: 54px;
+}
+.A {margin-left: 2%;
+}
+#G {width: 28%;
+    height: 69%;
+	background-color: #f3f7fd;
+	position: absolute;
+	margin-top: 14.5%;
+	margin-left: 550px;
+	font-family: century gothic;
+	font-size: 21px;
+	opacity: 0.7;
+}
+.last {margin-top: 15%;
+       float: right;
+	   height: 67%;
+	   width: 42.5%;
+}
 </style>
 </head>
 <body>
-  <div class="vl">
-<center>
-<img src="2x2.jpg" width="160" height="160"/>
-    <h1> Denise Lizardo </h1>
-</center>
-<ul>
-    <li>Blk. 17 Lt. 17 Goldridge Estates Subdivision, Sta. Cruz, Guiguinto, Bulacan</li>
-    <li>+639 39 727 8241</li>
-    <li>denisetrstn@gmail.com</li>
+<div id="a">
+<p class="O">Denise Lizardo</p>
+<ul class="M">
+<li>Blk.17 Lt. 17 Goldridge Estates Subdivision, Sta. Cruz, Guiguinto, Bulacan</li>
+<li>denisetrstn@gmail.com</li>
+<li>09274823513</li>
 </ul>
-  </div>
+<div id="b">
+   <center><img src="2x2.jpg" class="prof"></center></div>
+</div>
+<div id="H">
+<center>
+<h1>Education</h1>
+<b>Holy Spirit Academy of Malolos</b>
+</center>
+<p class="A">Junior High School</p>
+<p class="A">(2013-2017)</p>
+<p class="A">Senior High School</p>
+<p class="A">(2017-2019)</p>
+</div>
+<div id="G">
+<center>
+<h1>Summary of Skills</h1>
+</center>
+<ol>
+<li>Proficient in written and oral communication (English and Filipino)</li>
+<li>Knowledgeable in MS Office Application</li>
+<li>Competent and participative team-player and team-leader</li>
+<li>Punctual in meeting deadlines</li>
+<li>Highly trustworthy in handling responsibilities</li>
+<li>Critical and analytical thinker</li>
+<li>Well-focused and maintain objectivity on tasks given</li>
+<li>Proficient with Photoshop</li>
+<li>Proficient with Canva</li>
+</ol>
+</div>
+<img src="Filmmaking.jpg" class="last">
 </body>
 </html>
